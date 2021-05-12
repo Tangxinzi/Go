@@ -996,6 +996,10 @@ ci-info@^1.0.0:
   version "1.1.2"
   resolved "http://registry.npm.taobao.org/ci-info/download/ci-info-1.1.2.tgz#03561259db48d0474c8bdc90f5b47b068b6bbfb4"
 
+clamp@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/clamp/-/clamp-1.0.1.tgz#66a0e64011816e37196828fdc8c8c147312c8634"
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/cli-cursor/download/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -1215,6 +1219,10 @@ cryptiles@3.x.x:
   dependencies:
     boom "5.x.x"
 
+crypto-js@^3.1.9-1:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
+
 csrf@~3.0.0:
   version "3.0.6"
   resolved "http://registry.npm.taobao.org/csrf/download/csrf-3.0.6.tgz#b61120ddceeafc91e76ed5313bb5c0b2667b710a"
@@ -1341,6 +1349,12 @@ ecc-jsbn@~0.1.1:
   resolved "http://registry.npm.taobao.org/ecc-jsbn/download/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
   dependencies:
     jsbn "~0.1.0"
+
+echarts@3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/echarts/-/echarts-3.2.3.tgz#4f01e15bfda3352fcd8ef9049f13d8448971a258"
+  dependencies:
+    zrender "^3.1.3"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -1875,6 +1889,10 @@ hoek@4.x.x:
   version "4.2.0"
   resolved "http://registry.npm.taobao.org/hoek/download/hoek-4.2.0.tgz#72d9d0754f7fe25ca2d01ad8f8f9a9449a89526d"
 
+hoist-non-react-statics@^2.2.0, hoist-non-react-statics@^2.3.1:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/home-or-tmp/download/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -2167,6 +2185,10 @@ istanbul-reports@^1.1.3:
   dependencies:
     handlebars "^4.0.3"
 
+jcore-react-native@^1.2.5:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/jcore-react-native/-/jcore-react-native-1.9.1.tgz#7353a8fd25391e62a9399a149459b0ca22e8b04e"
+
 jest-changed-files@^21.2.0:
   version "21.2.0"
   resolved "http://registry.npm.taobao.org/jest-changed-files/download/jest-changed-files-21.2.0.tgz#5dbeecad42f5d88b482334902ce1cba6d9798d29"
@@ -2392,9 +2414,17 @@ jest@21.2.1:
   dependencies:
     jest-cli "^21.2.1"
 
+jpush-react-native@^2.1.12:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jpush-react-native/-/jpush-react-native-2.8.2.tgz#db7e91811ab5395a7d60a08d0092c780f8c14d3d"
+
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "http://registry.npm.taobao.org/js-tokens/download/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
+
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
 
 js-yaml@^3.7.0:
   version "3.10.0"
@@ -2666,6 +2696,12 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
   dependencies:
     js-tokens "^3.0.0"
 
+loose-envify@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
+
 lru-cache@^4.0.1:
   version "4.1.1"
   resolved "http://registry.npm.taobao.org/lru-cache/download/lru-cache-4.1.1.tgz#622e32e82488b49279114a4f9ecf45e7cd6bba55"
@@ -2700,8 +2736,8 @@ merge-stream@^1.0.1:
     readable-stream "^2.0.1"
 
 merge@^1.1.3:
-  version "1.2.0"
-  resolved "http://registry.npm.taobao.org/merge/download/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.1.tgz#38bebf80c3220a8a487b6fcfb3941bb11720c145"
 
 method-override@~2.3.5:
   version "2.3.10"
@@ -2841,6 +2877,10 @@ minimist@~0.0.1:
   dependencies:
     minimist "0.0.8"
 
+moment@^2.19.3:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+
 morgan@~1.6.1:
   version "1.6.1"
   resolved "http://registry.npm.taobao.org/morgan/download/morgan-1.6.1.tgz#5fd818398c6819cba28a7cd6664f292fe1c0bbf2"
@@ -2883,6 +2923,12 @@ mute-stream@0.0.7:
 nan@^2.3.0:
   version "2.8.0"
   resolved "http://registry.npm.taobao.org/nan/download/nan-2.8.0.tgz#ed715f3fe9de02b57a5e6252d90a96675e1f085a"
+
+native-echarts@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/native-echarts/-/native-echarts-0.4.0.tgz#cb7f38fb6e6c2d1cd3f11a27e94ef74092b4bd38"
+  dependencies:
+    echarts "3.2.3"
 
 natural-compare@^1.4.0:
   version "1.4.0"
@@ -3147,6 +3193,12 @@ path-parse@^1.0.5:
   version "1.0.5"
   resolved "http://registry.npm.taobao.org/path-parse/download/path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1"
 
+path-to-regexp@^1.7.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-1.8.0.tgz#887b3ba9d84393e87a0a0b9f4cb756198b53548a"
+  dependencies:
+    isarray "0.0.1"
+
 path-type@^1.0.0:
   version "1.1.0"
   resolved "http://registry.npm.taobao.org/path-type/download/path-type-1.1.0.tgz#59c44f7ee491da704da415da5a4070ba4f8fe441"
@@ -3249,6 +3301,14 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
+prop-types@^15.5.10, prop-types@^15.7.2:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 prop-types@^15.5.8, prop-types@^15.6.0:
   version "15.6.0"
   resolved "http://registry.npm.taobao.org/prop-types/download/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
@@ -3328,6 +3388,67 @@ react-devtools-core@^2.5.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-is@^16.8.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+
+react-lifecycles-compat@^3.0.2:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+
+react-native-dismiss-keyboard@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-dismiss-keyboard/-/react-native-dismiss-keyboard-1.0.0.tgz#32886242b3f2317e121f3aeb9b0a585e2b879b49"
+
+react-native-drawer-layout-polyfill@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/react-native-drawer-layout-polyfill/-/react-native-drawer-layout-polyfill-1.3.2.tgz#192c84d7a5a6b8a6d2be2c7daa5e4164518d0cc7"
+  dependencies:
+    react-native-drawer-layout "1.3.2"
+
+react-native-drawer-layout@1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/react-native-drawer-layout/-/react-native-drawer-layout-1.3.2.tgz#b9740d7663a1dc4f88a61b9c6d93d2d948ea426e"
+  dependencies:
+    react-native-dismiss-keyboard "1.0.0"
+
+react-native-idle-timer@^2.1.4:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/react-native-idle-timer/-/react-native-idle-timer-2.1.6.tgz#6076c9e6127aabdc8eb1e1d846014bfe3dfa7527"
+
+react-native-input-scroll-view@^1.6.3:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/react-native-input-scroll-view/-/react-native-input-scroll-view-1.11.0.tgz#05ca068c4093c7c92a6412c0a05a9d76166976ad"
+  dependencies:
+    prop-types "^15.7.2"
+
+react-native-safe-area-view@0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.11.0.tgz#4f3dda43c2bace37965e7c6aef5fc83d4f19d174"
+  dependencies:
+    hoist-non-react-statics "^2.3.1"
+
+react-native-splash-screen@^3.0.6:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-splash-screen/-/react-native-splash-screen-3.2.0.tgz#d47ec8557b1ba988ee3ea98d01463081b60fff45"
+
+react-native-storage@^0.2.2:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/react-native-storage/-/react-native-storage-0.2.4.tgz#a3cba3bf28cb0a16d8f9e6ced8aea26b3020ca10"
+
+react-native-swiper@^1.5.13:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-swiper/-/react-native-swiper-1.6.0.tgz#59fdbdf95addee49630312f27077622c27776819"
+  dependencies:
+    prop-types "^15.5.10"
+
+"react-native-tab-view@github:react-navigation/react-native-tab-view":
+  version "0.0.74"
+  uid d87a5cb3ddbcb9e5ea1651450f6c12a7f41355df
+  resolved "https://codeload.github.com/react-navigation/react-native-tab-view/tar.gz/d87a5cb3ddbcb9e5ea1651450f6c12a7f41355df"
+  dependencies:
+    prop-types "^15.6.0"
+
 react-native@0.51.0:
   version "0.51.0"
   resolved "http://registry.npm.taobao.org/react-native/download/react-native-0.51.0.tgz#fe25934b3030fd323f3ca1a70f034133465955ed"
@@ -3386,6 +3507,19 @@ react-native@0.51.0:
     xmldoc "^0.4.0"
     yargs "^9.0.0"
 
+react-navigation@^1.0.0-beta.21:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-1.6.1.tgz#f08b560637edb5517f375bbd9bae3123e3027206"
+  dependencies:
+    clamp "^1.0.1"
+    hoist-non-react-statics "^2.2.0"
+    path-to-regexp "^1.7.0"
+    prop-types "^15.5.10"
+    react-lifecycles-compat "^3.0.2"
+    react-native-drawer-layout-polyfill "^1.3.2"
+    react-native-safe-area-view "0.11.0"
+    react-native-tab-view "github:react-navigation/react-native-tab-view"
+
 react-proxy@^1.1.7:
   version "1.1.8"
   resolved "http://registry.npm.taobao.org/react-proxy/download/react-proxy-1.1.8.tgz#9dbfd9d927528c3aa9f444e4558c37830ab8c26a"
@@ -3403,6 +3537,10 @@ react-test-renderer@16.0.0:
 react-timer-mixin@^0.13.2:
   version "0.13.3"
   resolved "http://registry.npm.taobao.org/react-timer-mixin/download/react-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
+
+react-timer-mixin@^0.13.3:
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/react-timer-mixin/-/react-timer-mixin-0.13.4.tgz#75a00c3c94c13abe29b43d63b4c65a88fc8264d3"
 
 react-transform-hmr@^1.0.4:
   version "1.0.4"
@@ -4387,3 +4525,7 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
+
+zrender@^3.1.3:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/zrender/-/zrender-3.7.4.tgz#f847d53948481ef6d42906d1ea9aeec7acbefdf2"
